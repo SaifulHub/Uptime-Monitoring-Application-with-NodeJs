@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/SaifulHub/Uptime-Monitoring-Application-with-NodeJs/issues"
   },
-  "homepage": "https://github.com/SaifulHub/Uptime-Monitoring-Application-with-NodeJs#readme"
+  "homepage": "https://github.com/SaifulHub/Uptime-Monitoring-Application-with-NodeJs#readme",
+  "dependencies": {
+    "eslint": "8.2.0",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
 }
